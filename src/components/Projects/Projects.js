@@ -7,6 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import dpower from "../../Assets/Projects/dpower.png";
 import onmodoApp from "../../Assets/Projects/onmodo-app.png";
+import onmodoWeb from "../../Assets/Projects/onmodo-web.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -46,12 +47,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={onmodoWeb}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="On-modo Web App"
+              description="Version web de la aplicación de onmodo, con funciones extras y mas detalladas para la gestión del lado administrativo de tu empresa"
+              ghLink="https://github.com/Nosrey/onmodo-web"
+              demoLink="https://youtu.be/yx7ikTZLp74?si=ofLzPKBNMEAQqevL"              
             />
           </Col>
 
