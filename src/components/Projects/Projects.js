@@ -6,6 +6,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import dpower from "../../Assets/Projects/dpower.png";
+import onmodoApp from "../../Assets/Projects/onmodo-app.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -34,11 +35,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={onmodoApp}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="On-modo Mobile App"
+              description="Una aplicación para la gestión de tareas, personal y recursos para el lado administrativo de tu empresa"
+              ghLink="https://github.com/Nosrey/onmodo-app/blob/master/README.md"
               demoLink="https://www.youtube.com/watch?v=1cjAOrgCQSE&ab_channel=YersonRico"
             />
           </Col>
