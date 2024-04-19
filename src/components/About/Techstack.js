@@ -18,6 +18,9 @@ import {
   SiSolidity,
   SiPostgresql,
   SiExpress,
+  SiSequelize, 
+  SiRedux,
+  SiTailwindcss,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -56,6 +59,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSequelize />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
       </Col>
     </Row>
   );

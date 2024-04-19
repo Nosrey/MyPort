@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import dpower from "../../Assets/Projects/dpower.png";
 import onmodoApp from "../../Assets/Projects/onmodo-app.png";
 import onmodoWeb from "../../Assets/Projects/onmodo-web.png";
+import egndWeb from "../../Assets/Projects/egnd-web.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -58,15 +59,15 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={egndWeb}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="EGND Web App"
+              description="Una aplicación web para el asesoramiento financiero, desarrollada para la prediccion financiera y economica de tu negocio, creando proyecciones para los próximos 10 años y asi realizar los ajustes necesarios."
+              ghLink="https://github.com/Nosrey/egnd-app"
+              demoLink="https://youtu.be/nvOi6X9M8c8?si=C4LmYuJ2AYLpicdq"
             />
           </Col>
-
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
@@ -88,7 +89,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
