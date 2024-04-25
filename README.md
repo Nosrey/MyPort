@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v1.1<br/>
+  Portfolio Website - v1.2<br/>
 </h2>
 
 
